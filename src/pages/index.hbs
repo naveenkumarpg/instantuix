@@ -1,0 +1,53 @@
+<style media="screen">
+	.home-page-links h5{
+		margin-top: 10px;
+		font-size: 0.8rem;
+		color: #333;
+	}
+	.home-page-links li{
+		clear: both;
+		margin-left: 15px;
+		list-style: circle;
+	}
+	.home-page-links li a{
+		font-size: 0.8rem;
+		text-decoration: none;
+	}
+	@media (max-width: 991px){
+
+		.home-page-links{
+			margin: 0px 30px
+		}
+		.home-page-links li {
+			margin-top: 5px;
+		}
+
+		.home-page-links li a{
+			width:100%;
+			display: block;
+		}
+	}
+
+</style>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="home-page-links">
+                {{#each tags}}
+				<div class="col-xs-6">
+					<h5>{{tag}}</h5>
+                    <ul class="page-list">
+                    {{#each pages}}
+                        {{#if data.title}}
+                            <li><a href="{{basename  }}.html" target="_blank">{{data.title}}</a></li>
+                        {{/if}}
+                    {{/each}}
+                    </ul>
+					<hr/>
+				</div>
+
+                {{/each}}
+			</div>
+		</div>
+	</div>
+</section>

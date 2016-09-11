@@ -1,0 +1,22 @@
+npm publish
+
+npm unpublish
+
+
+
+"assemble": "^0.4.42"
+
+
+
+
+One common cause of this error is that node_modules/assemble-handlebars doesn't contain a node_modules folder.
+
+I'm not sure why, but sometimes node doesn't recursively install the modules for that folder.
+
+A short term fix is to navigate to node_modules/assemble-handlebars in your terminal then run npm install.
+
+cd node_modules/assemble-handlebars
+
+npm install
+
+Grunt should now run the assemble tasks without any error.

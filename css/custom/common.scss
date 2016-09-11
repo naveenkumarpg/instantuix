@@ -1,0 +1,26 @@
+.global-header, .global-footer{
+    background: #77cc6d;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.main-content{
+    padding: 20px 0px;
+}
+
+.caption{
+    padding: 40px 0px;
+}
+
+.global-menu{
+    float: right;
+    li{
+        display: inline;
+        list-style: none;
+        a{
+            color: #fff;
+            font-size: 12px;
+            padding: 0px 20px;
+        }
+    }
+}

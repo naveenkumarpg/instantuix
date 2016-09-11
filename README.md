@@ -27,6 +27,10 @@ grunt
 
 webpage will be automatically opened on http://localhost:3000
 
+from there go to site folder and then index.html 
+
+Hola.! yout site is up.
+
 I am using this module to assemble the pages https://github.com/assemble/assemble, please refer for more information on assemble pages 
 
 

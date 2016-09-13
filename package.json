@@ -1,7 +1,7 @@
 {
     "name": "instantuix",
-    "version": "1.0.0",
-    "description": "Open source project for UI developers",
+    "version": "1.0.2",
+    "description": "node project for UI developers",
     "main": "gruntfile.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"

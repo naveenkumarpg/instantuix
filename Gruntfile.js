@@ -119,7 +119,8 @@ module.exports = function(grunt) {
                     src: [
                         'site/css/main.min.css',
                         'site/**/*.html',
-                        'site/js/*/*.min.js'
+                        'site/js/*/*.min.js',
+                        'data/*/*.json'
                     ]
                 },
                 options: {

@@ -1,6 +1,8 @@
 .global-header, .global-footer{
-    background: #34bf49;
+    background: #3ec7c2;
+    fill: #3ec7c2;
     padding: 20px 0px;
+    color: #fff;
 }
 
 .center{
@@ -21,8 +23,8 @@
         display: inline;
         list-style: none;
         a{
-            color: #000;
-            font-size: 12px;
+            color: #fff;
+            font-size: 13px;
             padding: 0px 20px;
         }
     }

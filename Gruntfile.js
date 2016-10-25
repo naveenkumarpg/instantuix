@@ -48,7 +48,8 @@ module.exports = function(grunt) {
             'js/**/*.js',
             '!js/libs/**'
         ],
-        hbs:['src/*/*.hbs']
+        hbs:['src/*/*.hbs'],
+        data:['data/*.json']
     };
 
     // Project configuration.

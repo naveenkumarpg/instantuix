@@ -1,6 +1,6 @@
 {
     "name": "instantuix",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "node project for UI developers",
     "main": "gruntfile.js",
     "scripts": {

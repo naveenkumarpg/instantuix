@@ -1,6 +1,6 @@
 #instantuix
 
-instantuix node package for the front-end developers who need to do rapid HTML/CSS developement.
+instantuix node package for the front-end developers who need to do rapid HTML/CSS development.
 
 ####How to install it .?
 
@@ -14,7 +14,7 @@ npm install instantuix
 clone from GitHub repository : https://github.com/naveenkumarpg/instantuix.git
 ```
 
-after successful cloning use 
+after successful cloning use
 
 ```
 npm install
@@ -27,11 +27,11 @@ grunt
 
 webpage will be automatically opened on http://localhost:3000
 
-from there go to site folder and then index.html 
+from there go to site folder and then index.html
 
-Hola.! yout site is up.
+Hola.! your site is up.
 
-I am using this module to assemble the pages https://github.com/assemble/assemble, please refer for more information on assemble pages 
+I am using this module to assemble the pages https://github.com/assemble/assemble, please refer for more information on assemble pages
 
 
 Fun Coding :)

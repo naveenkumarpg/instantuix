@@ -3,9 +3,9 @@
     * Name of the file "gruntfile.js"
     * This file contains the code for automation of minification and compression page creation script tasks
     *
-    * @project   open source project for feont developement usage
+    * @project   open source project for front-end developement
     * @date      2016-09-10
-    * @author    Naveen Kumar Paripati, Gmail <naveenkumarpg@gmail.com>
+    * @author    Naveen Kumar PG, Gmail <naveenkumarpg@gmail.com>
     * @licensor  naveenkumarpg.com
     * @site      http://www.naveenkumarpg.com/
 */
